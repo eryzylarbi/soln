@@ -54,12 +54,12 @@
 		<repository>
 			<id>release</id>
 			<name>releases</name>
-			<url>http://localhost:8086/artifactory/libs-release-local</url>
+			<url>http://artifactory:8086/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>snapshots</name>
-			<url>http://localhost:8086/artifactory/libs-snapshot-local</url>
+			<url>http://artifactory:8086/artifactory/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 
